@@ -3,8 +3,8 @@
   "version": "1.12.0",
   "description": "SendGrid API mock",
   "engines": {
-    "node": ">=16",
-    "npm": ">=8"
+    "node": ">=20",
+    "npm": ">=10"
   },
   "targets": {
     "default": {
@@ -21,9 +21,9 @@
     "dev": "concurrently \"npm run server-dev\" \"npm run ui-dev\"",
     "build": "parcel build ./src/ui/index.html"
   },
-  "author": "janjaali",
+  "author": "ilkerkaran",
   "repository": {
-    "url": "https://github.com/janjaali/sendGrid-mock",
+    "url": "https://github.com/ilkerkaran/sendGrid-mock",
     "type": "git"
   },
   "license": "MIT",

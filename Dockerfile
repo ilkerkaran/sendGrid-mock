@@ -2,7 +2,7 @@ FROM node:16-alpine as node
 
 # Build stage
 FROM node AS builder
-LABEL author="Siyavash Habashi (ghashange) / Ronald Dehuysser (Bringme)"
+LABEL author="ilker karan"
 
 ENV DOCKER_BUILD="true"
 
@@ -13,6 +13,8 @@ WORKDIR /app
 ######################################################################################
 # Add your own Dockerfile entries here
 ######################################################################################
+RUN apk add --update python3 make g++\
+   && rm -rf /var/cache/apk/*
 COPY package*.json ./
 RUN npm ci
 COPY . .
