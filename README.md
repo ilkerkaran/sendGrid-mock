@@ -68,11 +68,11 @@ docker run -it -p 3000:3000 -e "API_KEY=sendgrid-api-key" -e "CERT_DOMAINNAMES=[
 
 ## Development
 
-Setup with `npm ci` and start both server and UI concurrently with `npm run dev`. Per default the server is reachable via <http://localhost:3000> and the UI via <http://localhost:1234>.
+Setup with `npm ci` and start both server and UI concurrently with `npm run dev`. Per default the server is reachable via <http://localhost:3002> and the UI via <http://localhost:1234>.
 
 Some prepared HTTP calls can be found [here](./http-calls).
 
-The UI can be accessed at <http://localhost:3000>.
+The UI can be accessed at <http://localhost:3002>.
 
 ### Build
 
