@@ -1,4 +1,4 @@
-POST http://localhost:3000/v3/mail/send
+POST http://localhost:3002/v3/mail/send
 Authorization: Bearer sendgrid-api-key
 Content-Type: application/json
 
